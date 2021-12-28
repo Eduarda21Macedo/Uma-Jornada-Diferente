@@ -16,7 +16,7 @@
 <page background="bg2.png">
 <agent text="1 Tarefa encontre a chave correta!"  x="20" y="450" font-size="22"/>
 <agent text="Encontre a chave e passe pra proxima página." x="20" y="400" font-size="20"/>
-<agent text="Dica:Em uma matriz 6X6, com 6 inteiros de 1 a 6 em cada posição,quanto corresponde ao m[0][1] dessa matriz?" x="20" y="350" color="red" font-size="15"/>
+<agent text="Dica:Em uma matriz 6X6, com 6 inteiros de 1 a 6 em cada posição,quanto corresponde ao m[0][0] dessa matriz?" x="20" y="350" color="red" font-size="15"/>
 <agent img="sand1.png" x="0" y="0" width="100" height="100"/>
 <agent img="sand2.png" x="100" y="0" width="100" height="100"/>
 <agent img="sand2.png" x="200" y="0" width="100" height="100"/>
@@ -69,7 +69,7 @@
   
 <page background="noite_dark.png">
 <agent text="2 Tarefa!" color="white" x="20" y="440" font-size="22"/>
-<agent text="Encontre a chave," x="10" y="230" color="white" font-size="20"/>
+<agent text="Encontre a poção," x="10" y="230" color="white" font-size="20"/>
 <agent text="mas cuidado para não se machucar." x="10" y="200" color="white" font-size="20"/>
   <agent text="DICA:Quanto é 4-1?" x="10" y="180" color="red" font-size="15"/>
 <agent img="cavaleiro.png" x="100" y="90" width="100" height="100"/>
@@ -147,7 +147,7 @@
   <agent img="Tile (5).png" x="300" y="0" width="100" height="100" />
   <agent img="Tile (5).png" x="400" y="0" width="100" height="100"/>
 <agent img="cavaleiro.png" x="10" y="90" width="100" height="100"/>
-<agent img="Barrel (2).png" x="300" y="100" width="100" height="100"on-touch="_GOTO_PAGE:8"/>
+<agent img="Barrel (2).png" x="300" y="100" width="100" height="100"on-touch="_GOTO_PAGE:11"/>
 <agent img="Barrel (2).png" x="400" y="100" width="100" height="100" on-touch="_GOTO_PAGE:12"/>
 <agent img="Acid (1).png" x="200" y="100" width="100" height="100"/>
   
@@ -163,11 +163,10 @@
 <agent img="Acid (1).png" x="400" y="100" width="100" height="100"/>
 <agent img="Barrel (1).png" x="300" y="100" width="100" height="100" on-touch="_GOTO_PAGE:12"/>
 <agent img="Acid (1).png" x="200" y="100" width="100" height="100"/>
-  
   </page>
   
 <page background="bg_lab.png">
   <agent text="Fim"  color="White" x="200" y="250" font-size="50"/>
-  <agent text="Você conseguiu fazer todas as tarefas."  color="White" x="50" y="200" font-size="20"/>
+  <agent text="Você conseguiu fazer todas as tarefas.Sendo assim,concluimos nossa jornada."  color="White" x="60" y="180" font-size="20"/>
   </page>
 </fable>
