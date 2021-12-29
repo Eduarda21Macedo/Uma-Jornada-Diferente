@@ -20,19 +20,19 @@
 <agent img="sand1.png" x="0" y="0" width="100" height="100"/>
 <agent img="sand2.png" x="100" y="0" width="100" height="100"/>
 <agent img="sand2.png" x="200" y="0" width="100" height="100"/>
-<agent img="sand2.png" x="300" y="0" width="100" height="100" />
+<agent img="sand2.png" x="300" y="0" width="100" height="100"/>
 <agent img="sand2.png" x="400" y="0" width="100" height="100"/>
 <agent img="cavaleiro.png" x="100" y="90" width="100" height="100"/>
 <agent img="Crate.png" x="300" y="100" width="50" height="50" on-touch="_GOTO_PAGE:4"/>
 <agent img="Crate.png" x="200" y="100" width="50" height="50" on-touch="_GOTO_PAGE:4"/>
 <agent img="Crate.png" x="250" y="100" width="50" height="50" on-touch="_GOTO_PAGE:4"/>
-<agent img="Crate.png" x="200" y="150" width="50" height="50" on-touch="_GOTO_PAGE:4" />
+<agent img="Crate.png" x="200" y="150" width="50" height="50" on-touch="_GOTO_PAGE:4"/>
 <agent img="Crate.png" x="200" y="150" width="50" height="50" on-touch="_NEXT_PAGE"/>
 <agent img="Crate.png" x="300" y="150" width="50" height="50" on-touch="_GOTO_PAGE:4"/>
 <agent img="Crate.png" x="250" y="150" width="50" height="50" on-touch="_GOTO_PAGE:4"/>	
   </page>
 <page background="bg2.png">
-<agent text="Você encontrou!." x="20" y="400" font-size="22"/>
+<agent text="Você encontrou!" x="20" y="400" font-size="22"/>
 <agent text="continue sua jornada." x="20" y="350" font-size="20"/>
 <agent img="sand1.png" x="0" y="0" width="100" height="100"/>
 <agent img="sand2.png" x="100" y="0" width="100" height="100"/>
@@ -50,12 +50,12 @@
 <agent img="jump1.png" x="430" y="100" width="50" height="50" on-touch="_GOTO_PAGE:5"/>
   </page>
 <page background="bg2.png">
-<agent text="Você errou!." x="200" y="400" font-size="22"/>
+<agent text="Você errou!" x="200" y="400" font-size="22"/>
 <agent text="Clique aqui e tente novamente." x="100" y="300" font-size="20" on-touch="_GOTO_PAGE:2"/>
 <agent img="sand1.png" x="0" y="0" width="100" height="100"/>
 <agent img="sand2.png" x="100" y="0" width="100" height="100"/>
 <agent img="sand2.png" x="200" y="0" width="100" height="100"/>
-<agent img="sand2.png" x="300" y="0" width="100" height="100" />
+<agent img="sand2.png" x="300" y="0" width="100" height="100"/>
 <agent img="sand2.png" x="400" y="0" width="100" height="100"/>
 <agent img="cavaleiro.png" x="100" y="90" width="100" height="100"/>
 <agent img="Crate.png" x="300" y="100" width="50" height="50"/>
@@ -129,10 +129,10 @@
   </page> 
 <page background="bg_lab.png">
 <agent text="Ahh não o acido esta se espalhando,seja rápido" color="white" x="20" y="440" font-size="22"/>
-  <agent img="Tile (5).png" x="0" y="0" width="100" height="100" />
+  <agent img="Tile (5).png" x="0" y="0" width="100" height="100"/>
   <agent img="Tile (5).png" x="100" y="0" width="100" height="100"/>
   <agent img="Tile (5).png" x="200" y="0" width="100" height="100"/>
-  <agent img="Tile (5).png" x="300" y="0" width="100" height="100" />
+  <agent img="Tile (5).png" x="300" y="0" width="100" height="100"/>
   <agent img="Tile (5).png" x="400" y="0" width="100" height="100"/>
 <agent img="cavaleiro.png" x="10" y="90" width="100" height="100"/>
 <agent img="Acid (1).png" x="400" y="100" width="100" height="100"/>
